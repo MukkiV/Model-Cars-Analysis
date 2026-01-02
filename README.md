@@ -1,77 +1,44 @@
-# Model-Cars-Analysis
-**Comprehensive SQL Portfolio Project for Data Analysis and Business Insights**
+# 🚗 Car Sales Database Analysis (SQL)
 
-## Overview
+## 📌 Project Description
+This project focuses on analyzing a car sales relational database using SQL queries to extract business insights related to customers, sales performance, products, inventory, and financial trends. The objective is to demonstrate strong SQL querying skills for structured data analysis and business reporting.
 
-This project demonstrates end-to-end SQL data analysis skills on a simulated business database.
-The project covers various domains, including **customer, office, product, employee, and order** data management, and showcases advanced SQL concepts such as complex queries, stored procedures, and triggers.
-
----
-
-## Features
-
-- **Customer Data Analysis**  
-  - Top customers by credit limit and total sales
-  - Average credit limit by country and by office
-  - Customers who have not placed orders and customers exceeding credit limit
-  - Recent payment tracking
-
-- **Office Data Analysis**
-  - Employees by office and offices by region
-  - Most/least profitable office locations
-  - Offices with low/high employee count
-
-- **Product Data Analysis**
-  - Product inventory by category
-  - Top-selling products and best revenue generators
-  - Low inventory and price outliers
-
-- **Employee Data Analysis**
-  - Sales and profitability per employee
-  - Identification of high-performing representatives and managers
-
-- **Order Analysis**
-  - Average/total/categorical revenue per customer and order
-  - Recent orders, delayed shipping, and most profitable orders
-  - Most ordered product combinations
-
-- **Stored Procedures and Triggers**
-  - Dynamic reporting by product line or office headcount
-  - Automated credit control and stock updates with order processing
+All analysis is performed directly on the database using SQL, without the use of programming languages or visualization tools.
 
 ---
 
-## Files
-
-- **SQL-project.sql**:  
-  Main SQL script with all queries, procedures, and triggers.
-
----
-
-## How to Use
-
-1. **Setup**:  
-   Import your business database schema to a MySQL server.
-
-2. **Run the Script**:  
-   Execute the `SQL-project.sql` file in your SQL client (e.g., MySQL Workbench, DBeaver, phpMyAdmin).
-
-3. **Features**:  
-   - Run individual queries for analysis and reporting.
-   - Use provided procedures and triggers for automation and business logic.
-   - Modify parameters in procedures and queries as per your dataset.
+## 📂 Project Files
+- **Modern Cars Database.sql** – SQL file containing database schema and tables  
+- **Modern Cars Analysis SQL.sql** – SQL queries used for analysis  
+- **Car Sales Database Analysis.pptx** – Presentation summarizing query results and findings  
 
 ---
 
-## Skills Demonstrated
-
-- Complex data aggregation using `JOIN`, `GROUP BY`, and `HAVING`
-- Writing and invoking **stored procedures**
-- Implementing **triggers** for automation and validation
-- Dealing with real-world business datasets for insights
-- Use of subqueries and multi-level data relationships
+## 🛠️ Tools & Technologies
+- SQL  
+- Relational Databases  
 
 ---
 
-## Sample Queries
+## 🔍 Scope of Analysis
+- Customer revenue analysis and identification of high-value customers  
+- Sales representative performance evaluation  
+- Product demand and sales contribution analysis  
+- Country-wise and month-wise sales trend analysis  
+- Inventory level analysis to identify low-stock products  
+- Order status and payment behavior analysis  
 
+---
+
+## 📈 Key Insights
+- A small group of customers contributes a large share of total revenue, with top customers generating over **$300K each**.
+- Sales performance is uneven, with top sales representatives generating **over $2M in revenue**, while others lag behind.
+- Sales activity peaks in specific months such as **March (320 orders)** and **May (295 orders)**.
+- The **USA, France, and Germany** have the highest number of customers.
+- Several products have critically low inventory levels, with stock counts as low as **12–22 units**.
+
+---
+
+## 👤 Author
+**Mukesh V**  
+Data Analyst | SQL | Data Analysis
