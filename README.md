@@ -37,8 +37,4 @@ All analysis is performed directly on the database using SQL, without the use of
 - The **USA, France, and Germany** have the highest number of customers.
 - Several products have critically low inventory levels, with stock counts as low as **12–22 units**.
 
----
 
-## 👤 Author
-**Mukesh V**  
-Data Analyst | SQL | Data Analysis
